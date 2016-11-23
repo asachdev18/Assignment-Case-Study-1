@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div class="navbar ">
+<div class="navbar-inner">
+ <div class="container">
+ <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </a>
+ <a class="brand" href="#" >WebApp</a>
+ <div class="nav-collapse">
+ <ul class="nav">
+ <li class="active"><a href="#">Home</a></li>
+ <li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
+class="caret">&#9660</b></a>
+ <ul class="dropdown-menu">
+ <li><a href="#">Action</a></li>
+ <li><a href="#">Elite action</a></li>
+ <li><a href="#">Icecream action</a></li>
+ <li class="divider"></li>
+ <li class="nav-header">oneline action</li>
+ <li class="nav-header">Underline action</li>
+ <li><a href="#"></a></li>
+ <li><a href="#"></a></li>
+ </ul>
+ </li>
+
+ </ul>
+ <ul class="nav pull-right">
+
+ </ul>
+ </div><!-- /.nav-collapse -->
+ </div>
+</div><!-- /navbar-inner -->
+</div>
+
+
+
+
+<style>
+.dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+.container {
+    width: 100%;
+    height: 50px;
+    clear: none;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    font-family: Helvetica;
+}
+.nav li.active, .nav li.dropdown {
+    float: left;
+
+    list-style: none;
+
+}
+.divider {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brand {
+    position: relative;
+    left: 12px;
+    top: 7px;
+    font-size: 28px;
+    text-decoration: none;
+    color: red;
+}
+.nav {
+    float: left;
+    position: absolute;
+    top: -7px;
+    left: 100px;
+}
+.active {
+    background: #111111 !important;
+    padding: 15px;
+    text-align: center;
+}
+.dropdown-toggle {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.caret {
+    font-size: 12px;
+}
+
+li.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    min-width: 195px;
+    box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.8);
+    margin-top: 17px;
+    padding: 0px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+.nav-header {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    color: lightgray;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.dropdown-menu a {
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+}
+
+li.dropdown-menu a:hover {background-color: #111111}
+
+li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+li.dropdown:hover .dropdown-toggle, .active a {
+    background-color: #111111;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.dropdown-menu li {
+    list-style: none;
+}
+</style>
+
+</body>
+</html>
